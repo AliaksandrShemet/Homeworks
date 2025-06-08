@@ -1,0 +1,15 @@
+body{
+    background-color: blueviolet;
+}
+h1{
+            background-color: rgb(238, 255, 0);
+            color: rgb(230, 13, 139);
+        } 
+h2{
+            background-color: rgb(20, 17, 202);
+            color: rgb(177, 28, 28);
+        }
+p{
+            background-color: aqua;
+            color: black;
+        }
