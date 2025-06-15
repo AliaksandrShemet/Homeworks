@@ -1,0 +1,58 @@
+body{
+    background-color: rgb(255, 123, 0);
+}
+.visit-card{
+    background-color: bisque;
+    border: 5px solid black;
+    box-sizing: 10px;
+    border-radius: 5%;
+    margin: auto;
+    width: 700px;
+    height: 450px;
+    padding: 10px;
+}
+h1{
+    color: rgb(18, 18, 105);
+    padding-left: 240px;
+}
+.info-section{
+    color: rgb(18, 18, 105);
+    width: 690px;
+    height: 270px;
+    padding: 5px;
+}
+.info-box{
+display: inline-block;
+    color: rgb(18, 18, 105);
+    width: 340px;
+    height: 270px;
+    margin: auto;
+}
+.photo-box{
+     margin: auto;
+}
+h3{
+    margin-left:140px;
+    color: rgb(18, 18, 105);
+}
+img{
+    margin-top: px;
+    margin-left: 60px;
+    
+}
+a{
+    display:inline-block;
+    color: rgb(153, 17, 17);
+margin: 10px;
+}
+h4{
+    color: rgb(18, 18, 105);
+    margin-left: 30px;
+} 
+h5{
+    margin: 2px;
+    color: rgb(18, 18, 105);
+}
+p{
+     color: rgb(12, 12, 219);
+}
