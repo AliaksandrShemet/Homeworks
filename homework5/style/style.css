@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+
+body {
+background-color: rgb(255, 106, 176);}
+.all-box{
+  width: 360px;
+  height: 800px;
+  border-radius: 20px;
+  margin: auto;
+  background-color: hwb(0 100% 0%);
+  padding: 20px;
+}
+.menu{
+width: 21px;
+height: 18px;
+margin-top: 30px;
+}
+h1 {
+  color: rgb(0, 0, 0);
+  width: 87px;
+  height: 39px;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 100%;
+  text-align: left;
+  letter-spacing: 0%;
+  margin-top: 30px;
+}
+.search-section{
+  margin-top: 20px;
+  width: 316px;
+  height: 44px;
+  border-radius: 12px;
+  display: inline;
+}
+h3{
+  font-weight: 100px;
+  margin-top: 50px;
+}
+input {
+  width: 320px;
+  padding: 20px;
+  border-radius: 12px;
+  background: rgb(239, 239, 239);
+  margin-top: 40px;
+}
+.food-row{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.food-item:nth-child(1){
+  padding: 20px;
+    justify-content: space-between;
+}
+.food-item:nth-child(2){
+  padding: 20px;
+    justify-content: space-between;
+}
+.food-item:nth-child(3){
+  padding: 20px;
+    justify-content: space-between;
+}
+.food-item-bg {
+  margin: auto;
+  border-radius: 12px;
+  background: rgb(239, 239, 239);
+  padding: 20px;
+}
+.food-item-bg:hover {
+  background: rgb(234, 226, 183);
+}
+h4{
+  display: inline-flex;
+  justify-content: center;
+  color: black;
+}
+h5{
+  display: inline-flex;
+  justify-content: center;
+  color: red;
+}
+.burger-card{
+  display: inline-flex;
+}
