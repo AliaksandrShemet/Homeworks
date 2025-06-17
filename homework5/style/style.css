@@ -1,7 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
 
 body {
-background-color: rgb(255, 106, 176);}
+  font-family: "Savate", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+background-color: rgb(255, 106, 176);
+}
 .all-box{
   width: 360px;
   height: 800px;
@@ -10,10 +15,12 @@ background-color: rgb(255, 106, 176);}
   background-color: hwb(0 100% 0%);
   padding: 20px;
 }
+button{
+    background: transparent;
+  border: none
+}
 .menu{
-width: 21px;
-height: 18px;
-margin-top: 30px;
+  margin-top: 30px;
 }
 h1 {
   color: rgb(0, 0, 0);
@@ -27,14 +34,14 @@ h1 {
   margin-top: 30px;
 }
 .search-section{
-  margin-top: 20px;
+  margin-top: 10px;
   width: 316px;
   height: 44px;
   border-radius: 12px;
-  display: inline;
+  border-color: hwb(0 100% 0%);
 }
 h3{
-  font-weight: 100px;
+  font-weight: 100;
   margin-top: 50px;
 }
 input {
@@ -46,8 +53,8 @@ input {
 }
 .food-row{
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
+  padding: 20px 0;
+  column-gap: 24px;
 }
 .food-item:nth-child(1){
   padding: 20px;
@@ -70,16 +77,27 @@ input {
 .food-item-bg:hover {
   background: rgb(234, 226, 183);
 }
+.burger-card{
+  display: flex;
+  padding: 10px;
+  align-items: flex-start;
+}
 h4{
-  display: inline-flex;
-  justify-content: center;
+  text-align: center;
   color: black;
+  margin: 8px 0;
+}
+.img-block-text{
+
 }
 h5{
-  display: inline-flex;
-  justify-content: center;
-  color: red;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
-.burger-card{
-  display: inline-flex;
+p{
+  color: rgb(255, 0, 0);
+}
+.text-info{
+  display: inline-block;
 }

@@ -30,6 +30,7 @@ display: inline-block;
 }
 .photo-box{
      margin: auto;
+     vertical-align: top;
 }
 h3{
     margin-left:140px;
