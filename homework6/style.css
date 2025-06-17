@@ -1,0 +1,23 @@
+.img-block{
+    padding: 20px;
+    text-align: center;
+position: absolute;
+}
+.img-block.one{
+     z-index: 1;
+     top: 270px;
+     left: 680px;
+    }
+.img-block.two{
+     z-index: 2;
+     top: 400px;
+     left: 850px;
+}
+.img-block.tree{
+     z-index: 1;
+     top: 530px;
+     left: 1020px;
+}
+.image{
+    border-radius: 12px;
+}
