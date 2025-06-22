@@ -22,23 +22,27 @@ h1{
     padding: 5px;
 }
 .info-box{
-display: inline-block;
+   display: inline-block;
     color: rgb(18, 18, 105);
     width: 340px;
     height: 270px;
     margin: auto;
 }
 .photo-box{
-     margin: auto;
-     vertical-align: top;
+    display: inline-block;
+    margin: auto;
+    height: 270px;
+    width: 300px;
+    vertical-align: top;
 }
 h3{
     margin-left:140px;
     color: rgb(18, 18, 105);
 }
 img{
-    margin-top: px;
+    display: inline-block;
     margin-left: 60px;
+    vertical-align: top;
     
 }
 a{
