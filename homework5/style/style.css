@@ -33,16 +33,10 @@ h1 {
   letter-spacing: 0%;
   margin-top: 30px;
 }
-.search-section{
-  margin-top: 10px;
-  width: 316px;
-  height: 44px;
-  border-radius: 12px;
-  border-color: hwb(0 100% 0%);
-}
 h3{
   font-weight: 100;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 input {
   width: 320px;
@@ -50,6 +44,8 @@ input {
   border-radius: 12px;
   background: rgb(239, 239, 239);
   margin-top: 40px;
+  border-color: rgb(239, 239, 239);
+  margin-bottom: 20px;
 }
 .food-row{
   display: flex;
@@ -92,7 +88,7 @@ h4{
   margin: 8px 0;
 }
 .img-block-text{
-
+margin-left: 20px;
 }
 h5{
   color: black;
