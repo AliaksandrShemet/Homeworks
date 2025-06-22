@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Savate:ital,wght@0,200..900;1,200..900&display=swap');
+.body {
+    text-decoration-color: white;
+    height: 100%;
+}
+.font{
+    width: 1905px;
+    height: 1000px;
+    background-image: url("../img/1.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.head-box{
+    padding: 10px;
+    width: 100%;
+    display: inline-flex;
+    position: absolute;
+    margin: auto;
+}
+.main-box{
+    display: inline-blox;
+    margin: 10px;
+}
+.main-box:nth-child(1){
+display: inline-flex;
+height: 80px;
+position: fixed;
+}
+.text-f{
+    display: flex;
+    color: white;
+    font-size: 44px;
+    padding: 15px;
+    vertical-align: auto;
+}
+.main-box:nth-child(2){
+    display: inline-flex;
+right: 0;
+position: fixed;
+}
+.search-bt{
+    background: none;
+    color: white;
+    border: none;
+    font-size: large;
+}
+.info-zone{
+    height: 1200px;
+    width: 1200px;
+    vertical-align: center;
+    position: absolute;
+    top: 200px;
+    margin-left: 20px;
+    display: inline;
+}
+h1{
+    color: white;
+    font-size: 64px;
+    padding: 10px;
+}
+h4{
+    font-size: 32px;
+}
+h3{
+    font-size: 32px;
+}
+.white-text{
+    color: white;
+}
+.gray-text{
+    color: gray;
+}
+p{
+    color: gray;
+    font-size: 24px;
+}
+.info-zone-1{
+    display: inline-flex;
+    padding: 10px;
+}
+.rainting{
+    height: 34px;
+    width: 212;
+    position: absolute;
+    top: 450px;
+    left: 40px;
+}
+.fa-solid.fa-star{
+    font-size: 34px;
+    color: yellow;
+    padding-right: 10px;
+}
+.fa-regular.fa-star{
+    font-size: 34px;
+    color: white;
+    padding-right: 10px;
+}
+.section-button{
+    display: inline-flex;
+    height: 64px;
+    width: 100%;
+    position: absolute;
+    top: 550px;
+    left: 20px;
+}
+.section-1{
+    font-size: 22px;
+    height: 64px;
+    width: 274px;
+    margin-right: 80px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 10px;
+
+}
+.fa-solid.fa-circle-play{
+    font-size: 32px;
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+.section-2{
+    font-size: 22px;
+    height: 64px;
+    width: 274px;
+    color: white;
+    border-radius: 10px;
+    border: 3px;
+    border-color: white;
+    text-align: center;
+    vertical-align: middle;
+}
+.slider-controls{
+    width: 1000px;
+    display: inline-flex;
+    position: absolute;
+    top: 650px;
+    left: 20px;
+    color: white;
+
+}
+.arrow{
+   position: absolute;
+   right: 0;
+}
+.fa-sliders{
+border-radius: 40px;
+font-size: 22px;
+border-color: white;
+}
+.fa-solid.fa-angle{
+    color: white;
+    background-color: none;
+}
+.lib-img{
+    display: inline-flex;
+    width: 1000px;
+    height: 210px;
+    position: absolute;
+    justify-content: space-between;
+    top: 730px;
+    left: 20px;
+}
+
+
+.warning{
+    font-size: 24px;
+    background-color: gray;
+    border-left: 20px;
+    border-color: red;
+    bottom: 100px;
+    right: 0;
+    position: fixed;
+    display: inline-flex;
+    height: 66px;
+    width: 174px;
+}
+.gray-block{
+    display: inline-flex;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 40px;
+}
+.red-block{
+    background-color: red;
+    height: 66px;
+    width: 33px;
+}
+
