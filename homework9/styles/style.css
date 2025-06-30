@@ -1,0 +1,104 @@
+section{
+    height: 100%;
+    width: 70%;
+    padding: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.start{
+    display: inline-flex;
+    font-size: 3rem;
+    color: black;
+    padding-bottom: 3rem;
+}
+h1{
+    color: orange;
+    font-size: 3rem;
+    padding-left: 0.5rem;
+}
+.header{
+     display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+  grid-auto-rows: minmax(6rem, 80%);
+}
+.first{
+    display: flex;
+grid-column: 1  ;
+  grid-row: 1/5 ;
+}
+.second{
+    display: flex;
+grid-column: 2 / 3;
+  grid-row: 3 / 10;
+  justify-content: center;
+}
+.third{
+    display: flex;
+grid-column: 3/3;
+  grid-row: 1 / 5;
+  justify-content: right;
+}
+.fourth{
+    display: flex;
+grid-column: 1;
+  grid-row: 7 / 10;
+}
+.fifth{
+    display: flex;
+grid-column: 3/3;
+  grid-row: 7 / 10;
+  justify-content: right;
+}
+.eight{
+    margin-top: 4rem;
+    text-align: left;
+     color: orange;
+   grid-column: 1;
+  grid-row: 5 / 7; 
+  font-size: 24px;
+  vertical-align: middle;
+  margin-right: 15rem;
+}
+.seventh{
+    margin-top: 4rem;
+    margin-left: 2rem;
+    text-align: left;
+     color: orange;
+   grid-column: 3;
+  grid-row: 5 / 7;
+  font-size: 24px;
+  vertical-align: middle; 
+  margin-right: 15rem;
+}
+p{
+   color: rgb(0, 0, 0);
+font-size: 18px;
+font-weight: 400;
+line-height: 20px; 
+padding-top: 1rem;
+padding-bottom: 1rem;
+}
+.nineth{
+    margin-left: 5rem;
+    margin-right: 5rem;
+grid-column: 2 / 3;
+  grid-row: 1 / 2;
+  font-size: 24px;
+  text-align: center;
+  color: orange;
+  vertical-align: middle;
+}
+.end-block{
+    position: fixed;
+    color: black;
+    font-size: 2rem;
+    border-bottom: 0.5rem solid orange;
+    bottom: 3rem;
+    right: 2rem;
+    bottom: 1.5rem;
+}
+.end-block:hover{
+    color: red;
+    background-color: gray;
+}
