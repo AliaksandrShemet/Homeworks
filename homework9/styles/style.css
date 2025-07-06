@@ -71,6 +71,10 @@ grid-column: 3/3;
   vertical-align: middle; 
   margin-right: 15rem;
 }
+img{
+  width: 100%;
+  height: auto;
+}
 p{
    color: rgb(0, 0, 0);
 font-size: 18px;
